@@ -15,7 +15,7 @@ const Stack = createNativeStackNavigator();
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="GoalScreen">
+      <Stack.Navigator initialRouteName="Email">
         <Stack.Screen name="Email" component= { EmailScreen } />
         <Stack.Screen name="PasswordScreen" component={PasswordScreen} />
         <Stack.Screen name="NameScreen" component={NameScreen} />
